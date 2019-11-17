@@ -27,11 +27,11 @@ else {
 		// 6. Add some more riddles
 String ans2=JOptionPane.showInputDialog("what belongs to you, but other people use it more than you?");
 if(ans2.equals("your name")) {
-	JOptionPane.showInputDialog()
+	JOptionPane.showMessageDialog(null, "your correct!");
 	score=score+1;
 }
 	// 2. Make a pop up to show the score.
-		
+		JOptionPane.showMessageDialog(null, score);
 }
 }
 
